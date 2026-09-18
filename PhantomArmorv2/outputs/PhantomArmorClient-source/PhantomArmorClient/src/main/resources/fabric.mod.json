@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "phantomarmor_client",
+  "version": "${version}",
+  "name": "Phantom Armor Client",
+  "description": "Client HUD and Left Alt ability selection for Phantom Armor.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.phantomarmor.client.PhantomArmorClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "1.21.4",
+    "fabric-api": "*",
+    "java": ">=21"
+  }
+}
